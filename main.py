@@ -16,3 +16,11 @@ def make_request(payload: dict):
 def make_request(payload: dict):
 
     return "hi"
+
+
+
+
+@app.post("/abdullah")
+def make_request(payload: dict):
+
+    return "hi"
