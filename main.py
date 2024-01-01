@@ -8,3 +8,11 @@ app = FastAPI()
 def make_request(payload: dict):
 
     return "hello"
+
+
+
+
+@app.post("/organizations")
+def make_request(payload: dict):
+
+    return "hi"
